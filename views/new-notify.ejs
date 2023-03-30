@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-6 m-auto">
+            <h1>New form to post a notification</h1>
+            <form action="/notifications" method="post">
+                <div class="mb-3">
+                    <label for="body" class="form-label">notification body</label>
+                    <input type="text" class="form-control" id="body" name="body">
+                </div>
+                <div class="mb-3">
+                    <label for="author" class="form-label">author</label>
+                    <input type="text" class="form-control" id="author" name="author">
+                </div>
+                <div>
+                    <input class="btn btn-primary" type="submit" value="Add a new notification">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
